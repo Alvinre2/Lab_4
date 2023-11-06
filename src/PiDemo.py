@@ -16,6 +16,7 @@ from hal import hal_buzzer as buzzer
 from hal import hal_servo as servo
 import version as ver
 
+
 def blink_led(delay):
     # Led Blink
     led.init()
